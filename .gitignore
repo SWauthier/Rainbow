@@ -93,3 +93,6 @@ ENV/
 *.pth
 # Plots
 *.html
+
+#VSCode stuff
+.vscode/
