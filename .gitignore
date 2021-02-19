@@ -96,3 +96,5 @@ ENV/
 
 #VSCode stuff
 .vscode/
+gpulab-config.json
+submit.sh
