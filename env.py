@@ -18,6 +18,7 @@ class Env():
     # self.ale.setInt('frame_skip', 0)
     # self.ale.setBool('color_averaging', False)
     # self.ale.loadROM(atari_py.get_game_path(args.game))  # ROM loading must be done after setting options
+    print('Making Dark World...')
     world = DarkWorldEnv(player_fov=198, close_paths=True, max_length=args.max_episode_length)
     self.world = WarpFrame(world)
     # actions = self.ale.getMinimalActionSet()
